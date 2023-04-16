@@ -1,0 +1,177 @@
+body{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    background: hsl(213, 50%, 54%);
+    color: black;
+}
+
+#main-page{
+    background-color: whitesmoke;
+    margin: 20px 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+button{
+    background-color: hsl(213, 62%, 89%);
+    border: 1px solid hsl(213, 62%, 89%);
+    border: 1px solid hsl(213, 62%, 89%);
+    border-radius: 5px;
+    margin: 10px 20px;
+    padding: auto;
+    font-size: 20px;
+}
+button:hover{
+    background-color: hsl(213, 60%, 79%);
+}
+
+.c-site-header{
+    align-items: start;
+    font-size: 30px;
+    font-weight: bolder;
+    margin: 20px 20px;
+}
+
+h6{
+    margin: 20px auto 60px;
+    text-align: start;
+}
+
+.nav-section{
+    display: inline;
+    float: right;
+}
+
+.frst-initial{
+    width: 30px;
+    height: 30px;
+    color: whitesmoke;
+    background: hsl(213, 50%, 54%);
+    font-size: 20px;
+    font-weight: bold;
+    border: 1px solid hsl(213, 50%, 54%);
+    border-radius: 50%;
+    margin: 20px 5px;
+    padding:5px;
+    text-align: center;
+      
+}
+
+.surname{
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+
+#my-info{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.img{
+    width: 300px;
+    height: 300px;
+    border: 10px solid white;
+    border-radius: 50%; 
+    /* margin:auto 50px auto 500px;  */
+    filter:grayscale(100%)
+}
+#image{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+
+h3{
+    color: gray;
+    font-weight: lighter;
+    text-align: left;
+}
+
+.btn-cv{
+    background-color: whitesmoke;
+    border: 2px solid hsl(213, 50%, 54%);
+    border-radius: 30px;
+    padding: 20px 40px;
+    margin: 25px 5px;
+    display: flex;
+    align-self: flex-start;
+}
+
+#more-info{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-basis: 100%;
+    gap: 2rem;
+    width: 100%;
+}
+
+#intro-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-justify: newspaper;
+    /* padding-right: 20%; */
+    margin: 0 20%;
+}
+
+
+.skills{
+    width: 500px;
+    margin: 80px;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 10px 10px 30px hsl(213, 50%, 54%);
+    
+}
+
+
+
+.skills-child{
+    column-count: 2;
+    column-gap: 50px;
+}
+
+
+.hobbies{
+    width: 500px;
+    margin: 80px;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 10px 10px 30px hsl(213, 50%, 54%);
+  
+}
+
+.hobbies-child{
+    column-count: 2;
+    column-gap: 50px;
+
+}
+
+.video{
+    background-color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 10px;
+    box-shadow: 10px 10px 30px hsl(213, 50%, 54%);
+    width: 550px;
+    height: 450px;
+    margin: 30px auto;
+    padding: 30px 10px 30px 10px;  
+    
+}
+
+.video-title{
+    font-size: 30px;
+}
+
+.c-site-footer{
+    margin: 50px;
+    font-size: 20px;
+}
+
+   
